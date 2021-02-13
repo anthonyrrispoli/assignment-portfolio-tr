@@ -1,0 +1,56 @@
+ul.Navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed; /* Make it stick even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color:blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    text-indent: 215px;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+ul.Changelog {
+    text-align: center;
+    font-size: 20px;
+}
+
+li.change {
+    text-align: center;
+    font-size: 20px;
+}
