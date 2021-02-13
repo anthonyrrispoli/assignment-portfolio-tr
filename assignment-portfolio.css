@@ -1,3 +1,5 @@
+/* CSS formatting for the assignment-portfolio home page */
+
 ul.Navigation {
     list-style-type: none;
     margin: 0;
@@ -50,7 +52,7 @@ ul.Changelog {
     font-size: 20px;
 }
 
-li.change {
+li.Change {
     text-align: center;
     font-size: 20px;
 }
